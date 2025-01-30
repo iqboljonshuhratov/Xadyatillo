@@ -1,0 +1,215 @@
+:root{
+    --color-primary: red; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.themeBox{
+    min-width: 100%;
+    display: flex;
+    padding: 5px 10px !important;
+    
+    #button{
+        min-width: 40px;
+        min-height: 40px;
+        font-size: 40px;
+        border: none !important;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    
+}
+
+
+    @media(min-width: 900px){
+        .themeBox{
+            justify-content: flex-end !important;
+        }
+        #button{
+            display: none !important;
+        }
+    }
+
+    @media(max-width: 900px){
+        .themeBox{
+            justify-content: space-between !important;
+        }
+
+        #button{
+            font-size: 32px !important;
+        }
+        #button2{
+            font-size: 34px !important;
+        }
+        
+    }
+
+
+
+// bu kun tun rejimi uchun
+
+
+.mode{
+    background-color: #fff;
+    width: 4.1em;
+    height: 2em;
+    border-radius: 10em;
+    padding: 1.5px !important;
+
+    box-shadow: inset 0 8px 60px rgb(0,0,0, .1),
+                inset 0 8px 8px rgb(0,0,0, .1),
+                inset 0 -4px 4px rgb(0,0,0, .1);
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .btn{
+        background-color: #fff;
+        width: 1.7em;
+        height: 1.7em;    
+        border-radius: 50%;
+        
+        position: absolute;
+        background-color: black;
+
+        box-shadow: 0 8px 40px rgb(0,0,0, .2);
+
+        transition: transform .4s ease;
+
+        &:active{
+            background-color: black;
+        }
+
+        .btn_icon_container{
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .sun{
+                color: yellow;
+                font-size: 1.2rem;
+            }
+
+            .moon{
+                color: #fff;
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+}
+
+
+.mode_dark{
+    box-shadow: inset 0 8px 60px rgb(0,0,0, .3),
+    inset 8px 0 8px rgb(0,0,0, .3),
+    inset 0 -4px 4px rgb(0,0,0, .3);
+
+    .dark{
+        transform: translate(2.2em);  
+        box-shadow: 0 8px 40px rgba(0,0,0, .3);
+    }
+
+
+}
+
+
+.mode2{
+    background-color: #fff;
+    width: 4.1em;
+    height: 2em;
+    border-radius: 10em;
+    padding: 1.5px !important;
+
+    box-shadow: inset 0 8px 60px rgb(0,0,0, .1),
+                inset 0 8px 8px rgb(0,0,0, .1),
+                inset 0 -4px 4px rgb(0,0,0, .1);
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .btn{
+        background-color: #fff;
+        width: 1.7em;
+        height: 1.7em;
+        border-radius: 50%;
+        
+        position: absolute;
+        background-color: black;
+
+        box-shadow: 0 8px 40px rgb(0,0,0, .2);
+
+        transition: transform .4s ease;
+
+        &:active{
+            background-color: black;
+        }
+
+        .btn_icon_container{
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .sun{
+                color: yellow;
+                font-size: 1.2rem;
+            }
+
+            .moon{
+                color: #fff;
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+}
+
+
+.mode_dark2{
+    box-shadow: inset 0 8px 60px rgb(0,0,0, .3),
+    inset 8px 0 8px rgb(0,0,0, .3),
+    inset 0 -4px 4px rgb(0,0,0, .3);
+
+    .dark{
+        transform: translate(2.2em);  
+        box-shadow: 0 8px 40px rgba(0,0,0, .3);
+    }
+
+
+}
+
+@media(max-width: 900px){
+    .mode2{
+        display: none;
+    }
+    .mode_dark2{
+        display: none;
+    }
+}
+
+
+@media(min-width: 900px){
+    .mode{
+        display: none;
+    }
+    .mode_dark{
+        display: none;
+    }
+}

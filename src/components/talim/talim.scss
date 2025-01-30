@@ -1,0 +1,124 @@
+@import url('../../global.scss');
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+.ozimHaqimdaBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .InfoBox{
+        min-width: 100%;
+        height: auto;
+        padding: 0px !important;
+        margin: 0px !important;
+        display: flex;
+
+        .befor-box{
+            min-width: 20px !important;
+            min-height: 98% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            .befor{
+                width: 15px !important;
+                height: 15px !important;
+                background-color: var(--color-primary) !important;
+                border-radius: 100%;
+                position: relative;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                background-color: var(--color-primary);
+                height: 92% !important;
+                width: 2px;
+                left: 7px;
+            }
+
+            @media(max-width: 800px){
+                &::before{
+                    height: 96% !important;
+                }
+    
+            }
+
+
+        }
+
+
+        .info1{
+            width: 100%;
+            display: flex;
+
+            .img-box{
+                max-width: 300px !important;
+
+                img{
+                    max-width: 100%;
+                    height: 100% ;
+                    object-fit: cover;
+                }
+
+                
+            }
+
+
+
+            .img-box2{
+                min-width: 300px !important;
+                img{
+                    min-width: 100% !important;
+                    max-width: 200px !important;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+            
+            @media (max-width: 800px){
+                .img-box2{
+                   
+                    padding: 20px !important;
+                    img{
+                        min-width: 100% !important;
+                        max-width: 200px !important;
+                        height: 100%;
+                        object-fit: cover;
+    
+                    }
+                }
+            }
+
+            .text-box{
+                padding: 0 !important;
+                min-height: 200px;
+
+                p{
+                    margin: 0 !important;
+                    padding: 10 !important;
+                }
+
+
+            }
+
+        }
+
+        @media (max-width: 800px){
+            .info1{
+                flex-direction: column !important;
+
+                .img-box{
+                    min-width: 100% !important;
+                    padding: 10px 30px !important;
+                }
+            }
+        }
+    }
+  
+}
