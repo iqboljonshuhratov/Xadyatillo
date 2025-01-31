@@ -97,17 +97,15 @@ export default function Talim() {
           </div>
           <div className="text-box">
             <p className={`text-${theme == "dark" ? "light" : "dark"} p-3`}>
-              Avvaliga yaxshi bola bolgan keyin 21-DIMIda o'qigan men bilan{" "}
-              <br />
-              Uyerni bitirgan aduga tushkan, adashmasam o'sha paytlar ham yaxshi
-              edi <br />
-              Keyin birdaniga yevropaga bordiyu aynidi. Bir qiz topib olgan{" "}
-              <br />
-              Aytishlaricha u qizga borini ham berishga tayyor bizni eslab
-              telefon qilmasa qilmaydiki lekin anavi qizini esidan chiqarmaydi{" "}
-              <br />
-              Qisqa qilib aytkanda telba bir Oshiq bo'lib qolgan desa ham
-              bo'ladi
+              Avvaliga yaxshi bola bolgan keyin 21-DIMIda o'qiyottkan mahalda
+              men bilan <br />
+              Uyerni bitirgan va shaharda o'qishni davom ettirgan, adashmasam
+              o'sha paytlar ham yaxshi edi <br />
+              Keyin birdaniga yevropaga bordiyu aynidi. O'qish nimaga kerak,
+              dimlomni keragi yo'q deb. <br />
+              Eng oliy maqsadi CHet elda yur, davringni sur <br />
+              Qisqa qilib aytkanda chetellik kelgindi. Ha to'g'ri eshittingiz
+              chunki uning maxallasi ham uni tanimaydi)
             </p>
           </div>
         </div>
