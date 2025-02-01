@@ -44,18 +44,18 @@ export default function Prayektlar() {
     {
       imgLink: ish2,
       title: "O'zbekistondan ko'ra chetka muhabbati kuchliroq",
-      link: "https://portfolio-iqboljon.netlify.app/",
+      link: "https://www.instagram.com/atillo__0808__/",
     },
     {
       imgLink: ish,
       title:
         "qiladigon ishi odatda sayohat kabi O'zbekistonda qolishni hohlamaydigon yagona mavjudot",
-      link: "https://shop001.netlify.app/",
+      link: "https://www.instagram.com/atillo__0808__/",
     },
     {
       imgLink: ish3,
       title: "davlat amaldorlari chiqargan qonundan noligani noligan",
-      link: "https://express24-iqboljon.netlify.app/",
+      link: "https://www.instagram.com/atillo__0808__/",
     },
     // {
     //   imgLink: backend,
@@ -192,7 +192,7 @@ export default function Prayektlar() {
 
                   <a href={`${v.link}`} target="_blank">
                     <button className={`p-1 rounded loyhalink`}>
-                      Portfolio link
+                      Instagram link
                     </button>
                   </a>
                 </div>
